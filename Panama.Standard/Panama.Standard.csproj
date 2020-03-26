@@ -2,6 +2,22 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Diran Ogunlana</Authors>
+    <Description>A simple command architecture for .NET Standard 2+ developed by Diran Ogunlana</Description>
+    <Copyright>Copyright 2020</Copyright>
+    <PackageLicenseExpression></PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/mrogunlana/Panama.Standard</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/mrogunlana/Panama.Standard</RepositoryUrl>
+    <PackageReleaseNotes>intial build, primary handler/command functionality</PackageReleaseNotes>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE.md">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
