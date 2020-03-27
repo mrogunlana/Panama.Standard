@@ -1,3 +1,7 @@
 /.vs/
 /Panama.Standard/bin/
 /Panama.Standard/obj/
+/Panama.Standard.IoC.Autofac/bin/
+/Panama.Standard.IoC.Autofac/obj/
+/Panama.Standard.Logger.Nlog/bin/
+/Panama.Standard.Logger.Nlog/obj/

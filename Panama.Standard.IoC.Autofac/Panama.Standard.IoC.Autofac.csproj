@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
+    <Authors>Diran Ogunlana</Authors>
+    <Company>Diran Ogunlana</Company>
+    <Description>Implementation of Autofac IoC container with Service Locator</Description>
+    <Copyright>2020</Copyright>
+    <PackageProjectUrl>https://github.com/mrogunlana/Panama.Standard</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/mrogunlana/Panama.Standard</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="5.1.2" />
+    <PackageReference Include="Panama.Standard" Version="1.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE.md">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>

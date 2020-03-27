@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Diran Ogunlana</Authors>
+    <Description>Implementation of NLog logger component using Panama ILog Interface</Description>
+    <Copyright>2020</Copyright>
+    <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
+    <PackageProjectUrl>https://github.com/mrogunlana/Panama.Core</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/mrogunlana/Panama.Core</RepositoryUrl>
+    <PackageReleaseNotes>initial stable release</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NLog" Version="4.7.0" />
+    <PackageReference Include="Panama.Standard" Version="1.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE.md">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>

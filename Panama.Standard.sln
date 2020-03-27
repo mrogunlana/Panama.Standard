@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29905.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Panama.Standard", "Panama.Standard\Panama.Standard.csproj", "{7771D1C2-5FC9-4264-BF62-F5294C4E4BCE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Panama.Standard", "Panama.Standard\Panama.Standard.csproj", "{7771D1C2-5FC9-4264-BF62-F5294C4E4BCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Panama.Standard.IoC.Autofac", "Panama.Standard.IoC.Autofac\Panama.Standard.IoC.Autofac.csproj", "{97743C09-9EAD-4E3D-B772-4A924C40CDB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Panama.Standard.Logger.Nlog", "Panama.Standard.Logger.Nlog\Panama.Standard.Logger.Nlog.csproj", "{9DA962B7-0593-4168-B679-90D35A24AFCA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{7771D1C2-5FC9-4264-BF62-F5294C4E4BCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7771D1C2-5FC9-4264-BF62-F5294C4E4BCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7771D1C2-5FC9-4264-BF62-F5294C4E4BCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97743C09-9EAD-4E3D-B772-4A924C40CDB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97743C09-9EAD-4E3D-B772-4A924C40CDB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97743C09-9EAD-4E3D-B772-4A924C40CDB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97743C09-9EAD-4E3D-B772-4A924C40CDB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DA962B7-0593-4168-B679-90D35A24AFCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DA962B7-0593-4168-B679-90D35A24AFCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DA962B7-0593-4168-B679-90D35A24AFCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DA962B7-0593-4168-B679-90D35A24AFCA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
